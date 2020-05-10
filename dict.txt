@@ -1,0 +1,7 @@
+background
+ace
+ten
+nine
+queen
+king
+jack
