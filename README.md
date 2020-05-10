@@ -7,7 +7,12 @@ My tensorflowjs package from the export (model.json, dict.txt, group1-shard1of3,
 are in the same directory as the index.html. I also have an index2.html. In index.html I use the same
 imports for tfjs and tfjs-automl as the example here. In the index2.html I use CDN sources for tfjs and tfjs-automl.
 
-My repo is here: https://github.com/mmmwembe/automl-tensorflowjs.git including the tensorflowjs model and the test-images.
+The create web app example is here: https://github.com/tensorflow/tfjs/blob/master/tfjs-automl/code_snippets/object_detection.html
+
+My repo that follows that example using my custom object detection model is: https://github.com/mmmwembe/automl-tensorflowjs.git including the tensorflowjs model and the test-images.
+
+
+What am I missing here?...I've run this with Chrome browser using Live Server in vscode editor as well as with nodejs using http-server -p 8000
 
 
 

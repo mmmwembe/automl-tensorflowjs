@@ -14,6 +14,7 @@
 async function run() {
 
   const model = await tf.automl.loadObjectDetection('model.json');
+  const img = document.getElementById('test-image');
   const options = {score: 0.5, iou: 0.5, topk: 20};
   const predictions = await model.detect(img, options);
   // [END load_and_run_model]
@@ -23,7 +24,6 @@ async function run() {
   const pre = document.createElement('pre');
   pre.textContent = JSON.stringify(predictions, null, 2);
   document.body.append(pre);
-
 
 }
 
